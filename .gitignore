@@ -1,6 +1,13 @@
-# Compiled output
+
+# Compiled C/C++ executables
+/test
+/a.out
 *.o
-*.out
-*.exe
-main
+*.obj
+
+# Build directories
 build/
+cmake-build-*/
+
+# IDE files
+.vscode/
